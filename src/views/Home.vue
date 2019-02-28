@@ -30,6 +30,15 @@
     <mt-popup v-model="popupVisible" :position="popUpPosition">
       <div>popUp {{popUpPosition}}</div>
     </mt-popup>
+    <p>swipe</p>
+    <div style="height: 200px">
+      <mt-swipe :auto="4000" :show-indicators="true">
+        <mt-swipe-item style="background: green">1</mt-swipe-item>
+        <mt-swipe-item style="background: red">2</mt-swipe-item>
+        <mt-swipe-item style="background: yellow">3</mt-swipe-item>
+      </mt-swipe>
+    </div>
+
   </div>
 </template>
 
