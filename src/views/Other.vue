@@ -80,7 +80,7 @@
             value: '值D'
           }
         ],
-        radioValue:[],
+        radioValue:'A',
         radioOps:[
           {
             label: '选项A',
@@ -94,7 +94,15 @@
             label: '选项C',
             value: 'C'
           }
-        ]
+        ],
+        username: 'LowKeyZC',
+        email: '12345@qq.com',
+        password: '123456',
+        phone: '13899991111',
+        website: 'http://www.baidu.com',
+        number: '1111',
+        birthday: '1991-12-04',
+        introduction: '流浪地球'
       }
     }
   }
